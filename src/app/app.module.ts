@@ -10,6 +10,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { NavComponent } from './components/nav/nav.component';
 import { heroesModule } from './components/Heroes/heroes.module';
 import { AcumuladorModule } from './components/acumulador/acumulador.module';
+import { DbzModule } from './components/dbz/dbz.module';
 
 
 @NgModule({
@@ -19,6 +20,8 @@ import { AcumuladorModule } from './components/acumulador/acumulador.module';
     ProductComponent,
     ProductsComponent,
     NavComponent,
+
+ 
   
    
   ],
@@ -27,7 +30,8 @@ import { AcumuladorModule } from './components/acumulador/acumulador.module';
     AppRoutingModule,
     FormsModule,
     heroesModule,
-    AcumuladorModule
+    AcumuladorModule,
+    DbzModule
    
   ],
   providers: [],

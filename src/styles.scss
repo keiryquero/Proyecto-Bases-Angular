@@ -6,4 +6,29 @@
       border-radius: 10px;
     }
   }
+
+  
+}
+
+.row{
+  display: flex;
+}
+.col{
+  flex-grow: 1;
+  margin-right: 10px;  
+}
+input{
+  display: block;
+  margin: 5px;
+}
+button:focus{
+  outline: none;  
+}
+button:hover{
+background-color: #3e4144;
+color: #fff;
+border-radius: 2px;
+}
+.p-1{
+  padding: 1px;
 }
